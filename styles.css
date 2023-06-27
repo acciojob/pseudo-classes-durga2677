@@ -12,11 +12,11 @@
 }
 
 div>p:first-child{
-	color:white;
+	color: red;
 }
 
 div>p:last-child{
-	color:red;
+	color: red;
 }
 
 ul>li:first-child{
