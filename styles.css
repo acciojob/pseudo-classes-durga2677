@@ -3,34 +3,22 @@
 
 
 /*  your css code here. If applicable */
-.para {
-	background-color: black;
-	color: white;
+:root {
+  background-color: rgb(135, 206, 235);
 }
-:root{
-	background-color:skyblue;
+p:first-child {
+  color: rgb(255, 255, 255);
+	background:rgb(0,0,0);
 }
-
-div>p:first-child{
-	color: red;
+p:last-child {
+  color: rgb(255, 0, 0);
 }
-
-div>p:last-child{
-	color: red;
+li:nth-child(2n) {
+  background-color: rgb(128, 128, 128);
 }
-
-ul>li:first-child{
-	background-color:white;
+li:nth-child(2n + 1) {
+  background-color: rgb(255, 255, 255);
 }
-ul>li:nth-child(2){
-	background-color:slategray;
-}
-ul>li:nth-child(3){
-	background-color:pink;
-}
-ul>li:nth-child(4){
-	background-color:slategray;
-}
-ul>li:nth-child(5){
-	background-color:white;
+li:nth-child(3) {
+  background-color: rgb(255, 192, 203);
 }
